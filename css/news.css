@@ -1,0 +1,44 @@
+section.bannernews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../img/Bannergame.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.materia {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.materia h3 {
+    margin: 1rem 0;
+    font-size: 1.5em;
+    color: var(--contraste-color);
+}
+
+.materia p {
+    text-align: left;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+}
+
+.materia p:last-of-type{
+    margin-bottom: 2rem;
+}
+
+.materia img {
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+p.rodape {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}

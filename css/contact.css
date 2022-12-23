@@ -1,0 +1,227 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.logo { 
+    text-align: center;
+}
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contato-flex{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 1 0 auto;
+}
+
+.contato h2 {
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.endereco {
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.redes-sociais a { 
+    margin: 0.6rem;
+}
+
+.redes-sociais img {
+    width: 30px;
+}
+
+/* DIV FORM */
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 30px;
+    justify-content: center;
+    align-items:center;
+    border-radius: 8px;
+}
+
+.form-login form {
+    width: 100%;
+}
+
+/* Imagem LOGO */
+
+.form-login img {
+    width: 90px;
+    margin-bottom: 13px;
+}
+
+
+/* Título H2 - Conecte-se com sua Conta */
+.form-login h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+
+
+/* Divs - Label e Input */
+.item-form {
+    width: 100%;
+    margin: 13px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-size: 12px;    
+}
+
+.item-form input {
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    /* outline: none; */
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    font-size: 15px;
+    cursor: pointer;    
+}
+
+textarea {
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    /* outline: none; */
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    font-size: 15px;
+    resize: none;
+    cursor: pointer;    
+}
+
+/* Animação Input */
+
+.item-form input:focus, textarea:focus {
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 8px 0 white;
+}
+
+
+/* Checkbox Lembrar-me */
+
+.checkbox {
+  /*   display: block;
+    cursor: pointer;
+    padding: 0.3rem; */
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+/* Checkbox Animação */
+
+input[type=checkbox]:focus {
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 8px 0 white;
+}
+
+.checkbox label {
+    margin-left: 15px;
+}
+
+
+/* Botão Conectar */
+
+.btn-login {
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+    background-color: var(--contraste-color);
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid var(--contraste-color); 
+    font-family:var(--font-normal);
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Animação Botão Conectar */
+.btn-login:hover {
+    background-color: var(--bg-color);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid var(--contraste-color); 
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+
+/* Link Ajuda */
+
+.link-ajuda {
+    margin: 10px;
+    font-size: 15px;
+    color: var(--contraste-color)
+}
+
+.link-ajuda:hover {
+    text-decoration: underline;
+    transition: ease 0.5s;
+}
+
+
+/*  Responsivo Celular */
+ @media (max-width:425px){
+    
+    .form-login {
+        width: 100%;
+    }
+    
+    .redes-sociais {
+        text-align: center;
+    }
+} 
+ @media (max-width:580px){
+    .fixed-at-bottom{
+        position: inherit
+    }
+
+} 
+
+
+
