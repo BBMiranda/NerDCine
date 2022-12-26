@@ -1,1 +1,1 @@
-# NerDCine
+# NerDCine ☠️
