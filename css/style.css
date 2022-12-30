@@ -81,6 +81,7 @@ a {
   border-radius: 0.5rem;
 }
 .imghover {
+  border-radius: 50%;
   padding: 1rem;
   width: 100%;
   max-width: 230px;
@@ -114,15 +115,6 @@ a {
 
 .infosobre h2 {
   text-decoration: underline;
-}
-
-.imgs-sobre a:hover .infosobre {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100%;
-  backdrop-filter: blur(5px);
 }
 
 .imghover:hover {
