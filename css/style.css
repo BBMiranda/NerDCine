@@ -797,3 +797,27 @@ form .input-group button {
     margin-left: 45%;
   }
 }
+
+@media (max-width:930px) {
+  
+  .box{
+      width: 700px;
+      position:relative;
+      left:50px;
+  }
+  .form-box{
+      width: 100%;
+      border-radius: 20px;
+      position: relative;
+      left: 3px;
+  }
+
+
+  .fundo{
+    width:100%;
+    background-size: cover;
+    background-position: right;
+    background-image: 100%;
+    
+  }
+}
