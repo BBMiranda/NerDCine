@@ -55,20 +55,20 @@ a {
   text-align: center;
   position: relative;
 }
-.tituloindex{
+.tituloindex {
   font-family: var(--font-title);
   color: var(--contraste-color);
   text-shadow: 3px -2px 1px #00ffff;
   margin-bottom: 1rem;
-  margin-top:0.5rem;
+  margin-top: 0.5rem;
   padding: 0.5rem;
-  background-color:transparent;
+  background-color: transparent;
   border-top: 3px solid var(--contraste-color);
   border-bottom: 3px solid var(--contraste-color);
   width: 100%;
   height: 100%;
 }
-.imgs-sobre{
+.imgs-sobre {
   width: 100%;
   height: 100%;
   display: grid;
@@ -80,55 +80,54 @@ a {
   align-items: center;
   border-radius: 0.5rem;
 }
-.imghover{
-  padding:1rem;
+.imghover {
+  padding: 1rem;
   width: 100%;
   max-width: 230px;
   height: 100%;
-    transition: transform 0.3s ease-in-out;
-    object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
-  .imgs-sobre a {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    width: 100%;
-    height: 100%;
-    max-height: 370px;
-    margin-bottom: 0.2rem;
-  }
-  
-  .infosobre {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    transition: height 2s ease-in-out;
-    color: var(--contraste-color);
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.514);
-    border-radius: 75%;
-  }
-  
-  .infosobre h2 {
-    text-decoration: underline;
-    
-  }
-  
-  .imgs-sobre a:hover .infosobre {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-    backdrop-filter: blur(5px);
-  }
-  
-  .imghover:hover{
-    transform: scale(1.1);
-  }
+.imgs-sobre a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  margin-bottom: 0.2rem;
+}
+
+.infosobre {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  transition: height 2s ease-in-out;
+  color: var(--contraste-color);
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 75%;
+}
+
+.infosobre h2 {
+  text-decoration: underline;
+}
+
+.imgs-sobre a:hover .infosobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.imghover:hover {
+  transform: scale(1.1);
+}
 
 .row-flex {
   display: flex;
@@ -315,7 +314,7 @@ main > h2 {
   padding: 0.9em 0;
   font-size: 52px;
   color: #e643aa;
-  text-shadow: 2px -2px 0px #00ffff ;
+  text-shadow: 2px -2px 0px #00ffff;
 }
 
 .grid-cards {
@@ -599,19 +598,18 @@ footer {
   box-shadow: 0 10px 10px var(--contraste-color);
 }
 
-.titulo{
+.titulo {
   font-size: 2rem;
   font-weight: bold;
   color: var(--contraste-color);
   padding: 1rem;
   text-shadow: var(--text-color-black) 2px 2px 1px;
   text-align: left;
-  margin-left:2%;
+  margin-left: 2%;
   letter-spacing: 15%;
   position: relative;
   display: flex;
 }
-
 
 .itens {
   display: grid;
@@ -625,14 +623,14 @@ footer {
   max-height: 100%;
   align-items: center;
 }
-.iframes{
+.iframes {
   display: flex;
   position: relative;
   max-width: 100%;
   max-height: 100%;
-  height:90%;
+  height: 90%;
   padding: 0% 5%;
-  width:90%;
+  width: 90%;
   margin: 0 0 0 0;
 }
 .sinopse {
@@ -648,7 +646,7 @@ footer {
 }
 
 .sinopse p {
-  position:relative;
+  position: relative;
   display: inline-block;
   font-size: 1rem;
   padding: 2rem;
@@ -766,16 +764,14 @@ form .input-group button {
     width: 100%;
     height: 100%;
     align-items: center;
-  
   }
-  .titulo{
+  .titulo {
     margin: 0 0 2% 5%;
     display: flex;
     position: relative;
     align-content: center;
     text-align: center;
     align-items: center;
-    
   }
   .itens {
     grid-template-columns: 1fr;
@@ -785,7 +781,6 @@ form .input-group button {
     justify-content: left;
     position: relative;
   }
-
   .iframes {
     margin: 0 0 0 0;
     max-width: 100%;
@@ -793,7 +788,6 @@ form .input-group button {
     width: 100%;
     height: 100%;
     align-items: left;
-
   }
   .sinopse {
     margin: 5% 0 5% 0%;
@@ -817,16 +811,16 @@ form .input-group button {
     align-content: center;
     align-items: center;
   }
-  .tituloindex{
+  .tituloindex {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size:2.9rem;
+    font-size: 2.9rem;
   }
-  .imgs-sobre{
+  .imgs-sobre {
     max-width: 100%;
     width: 100%;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: row;
     justify-content: center;
@@ -834,59 +828,52 @@ form .input-group button {
     align-content: center;
     flex-wrap: wrap;
   }
-  
-  .imghover{
+
+  .imghover {
     width: 100%;
     max-width: 100px;
     margin: 0 7% 0 7%;
-    
   }
 }
 
-@media (max-width:930px) {
-  
-  .box{
-      width: 700px;
-      position:relative;
-      left:50px;
+@media (max-width: 930px) {
+  .box {
+    width: 700px;
+    position: relative;
+    left: 50px;
   }
-  .form-box{
-      width: 100%;
-      border-radius: 20px;
-      position: relative;
-      left: 3px;
+  .form-box {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    left: 3px;
   }
 
-
-  .fundo{
-    width:100%;
+  .fundo {
+    width: 100%;
     background-size: cover;
     background-position: right;
     background-image: 100%;
-    
   }
 }
 
-@media (max-width:930px) {
-  
-  .box{
-      width: 700px;
-      position:relative;
-      left:50px;
+@media (max-width: 930px) {
+  .box {
+    width: 700px;
+    position: relative;
+    left: 50px;
   }
-  .form-box{
-      width: 100%;
-      border-radius: 20px;
-      position: relative;
-      left: 3px;
+  .form-box {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    left: 3px;
   }
 
-
-  .fundo{
-    width:100%;
+  .fundo {
+    width: 100%;
     background-size: cover;
     background-position: right;
     background-image: 100%;
-    
   }
 }
